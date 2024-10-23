@@ -1,23 +1,46 @@
-# Next.js + Tailwind CSS Example
+# ZenTech Blog
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## Description
+**ZenTech Blog** is a modern blog platform focused on technology and mindfulness topics. This blog is built using **Next.js** for static site generation, **GraphQL** for fetching blog data, **Sass** for styling, and **Moment.js** for date management. It showcases my experience with modern web technologies and responsive design practices.
 
-## Deploy your own
+## Features
+- Blog content management using GraphQL.
+- Server-side rendering and static site generation with Next.js.
+- Responsive design built with Sass.
+- Efficient handling of dates and times with Moment.js.
+- SEO optimization for better search engine visibility.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Tech Stack
+- **Frontend**: Next.js, Sass
+- **Data Fetching**: GraphQL
+- **Date Handling**: Moment.js
+- **Deployment**: Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Installation
 
-## How to use
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/Takeru9016/zentech_graphql_blog.git
+    cd zentech_graphql_blog
+    ```
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app -- --example with-tailwindcss with-tailwindcss-app
-```
+3. **Run the development server**:
+    ```bash
+    npm run dev
+    ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+4. **Access the app** at `http://localhost:3000`.
+
+## Usage
+- Browse articles on technology and mindfulness.
+- Explore the blog’s clean and responsive interface.
+- Articles are fetched dynamically using GraphQL, ensuring high performance.
+
+## Future Improvements
+- Adding a content management system for easy article creation.
+- Multi-language support for a wider audience.
